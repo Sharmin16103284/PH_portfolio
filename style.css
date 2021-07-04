@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 500px;
+    margin-bottom: 150px;
+    display: flex;
+}
+
+#banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+h1{
+    margin-top: 6%;
+    font-size: 4em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    font-family: 'EB Garamond', serif;
+}
+
+span{
+    color: rgb(250, 105, 68);
+}
+
+p{
+    color: gray;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+}
+
+a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5%;
+    background-image: linear-gradient(45deg, rgb(245, 142, 117), rgb(250, 105, 68));
+}
+
+.half{
+    width: 40%;
+    margin-left: 7%;
+}
+
+.half img{
+    width: 100%;
+}
+
+#middle{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#middle h1{
+    font-size: 40px;
+}
+
+#middle a{
+    background-image: linear-gradient(60deg, rgb(248, 134, 153), rgb(238, 28, 63));
+}
+
+#third{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#third .exp{
+    height: 500px;
+    margin-bottom: 150px;
+    display: flex;
+}
+
+#third h1{
+    font-size: 40px;
+    padding-left: 5%;
+}
+
+#third h3{
+    padding-left: 5%;
+}
+
+#third p{
+    font-size: 20px;
+    padding: 5%;
+}
+
+.exp div{
+    box-shadow:  5px 7px 20px gray;
+    height: 70%;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(250, 105, 68), rgb(248, 42, 77));
+    border-image-slice: 1;
+}
+
+.footer p{margin-top: -10%;
+    padding-bottom: 10px;
+    color: gray;
+    text-align: center;
+}
